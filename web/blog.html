@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="my.css">
+    <title>Document</title>
+    <style>
+        .uul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #04AA6D;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        /* Create two equal columns that floats next to each other */
+        .column {
+            float: left;
+            width: 50%;
+            padding: 10px;
+            height: 300px;
+            border: #111 solid 3px;
+            /* Should be removed. Only for demonstration */
+        }
+
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .uul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #04AA6D;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div>
+            <ul class="uul" style="border-radius: 5px;">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a class="active" href="blog.html">Blog</a></li>
+                <li><a href="sitereport.html">Site Report</a></li>
+                <li style="float:right"><a href="login.html">login</a></li>
+            </ul>
+        </div>
+
+        <h2>Blogs</h2>
+
+        <div class="row">
+            <div class="column" style="background-color:rgb(73, 73, 73);"">
+                <h2>Learning CSS</h2>
+                <p>This assignment has helped me to learn more about Css which is an essential element for the web
+                    development. I have learned to make navigation bars, lists, columns and the type of ui systems
+                </p>
+                <ul>
+                    <li>Grid</li><br>
+                    <li>flexBox</li>
+                </ul><br>
+                <p>I have not implemented it on this assigmnet by i got some information on how they work</p>
+            </div>
+            <div class=" column" style="background-color:rgb(73, 73, 73);">
+                <h2>Learning Html</h2>
+                <p>This assgmnet helped me to explore the Html more deeply. i have used some of the html tags that were
+                    necessory for my website like</p>
+                <ul>
+                    <li>anchor tags</li><br>
+                    <li>Image tags</li><br>
+                    <li>Divs</li>
+                </ul>
+            </div>
+            <div class="column" style="background-color:rgb(73, 73, 73);width: 100%;margin: 2px;">
+                <h2>Skills set</h2>
+                <p> As a whole it has enabled me to go through the thought process for the development of the websites
+                    and what to look for when creatin the websites</p>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

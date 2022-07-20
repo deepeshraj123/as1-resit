@@ -1,0 +1,23 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", "Geneva", Verdana, sans-serif;
+}
+h1 {
+  color: lightseagreen;
+}
+h2 {
+  color: lightseagreen;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 10%;
+}
+
+td,
+th {
+  text-align: left;
+  padding: 8px;
+}
